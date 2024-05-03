@@ -1,0 +1,17 @@
+.head{
+    top: 0;
+}
+
+.all-list{
+    color: wheat;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 78px;
+    margin-right: 130px;
+    border: 1px solid wheat;
+}
+
+body{
+    background-color: white;
+    /* background-image: linear-gradient(rgb(5, 74, 5), black,black); */
+}

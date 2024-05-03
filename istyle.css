@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    /* background-image: linear-gradient(to right,black,black,green, black,black, black,black, green,black,black); */
+     background-image: linear-gradient(green,black, black); 
+    background-color: rgb(47, 40, 40);
+}
+
+.head{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: rgba(27, 30, 27, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.logo1{
+    height: 30px
+}
+
+
+.links{
+    color: wheat;
+    width: 400px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 17px;
+}
+
+.hover-link:hover{
+  text-decoration: none;
+    border-bottom: 2px solid wheat;
+}
+
+
+.inputContainer{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    border-radius: 5px;
+   
+}
+
+input{
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid rgb(203, 211, 203);
+    background-color: rgba(2, 86, 2, 0.2);
+    color: wheat;
+    
+}
+
+.searchImg{
+    height: 100%;
+    width: 30px;
+    background-color: wheat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchImg:hover{
+    background-color: rgb(208, 152, 48);
+}
+
+.searchImg{
+    height: 100%;
+    width: 25px;
+}
+
+.addToGarrage{
+    margin-right: 40px;
+}
+
+.addGarage{
+    width: 20px;
+    
+}
+
+.buyCarCount{
+    background-color: rgb(255, 94, 0);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    font-size: 15px;
+    top: -18px;
+    left: -10px;
+    line-height: 18px;
+    position: relative;
+    padding: 0 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+
+/* ////////////////////////////////// */
+
+.hero-img-container{
+    width: 98%;
+    height: 620px;
+    margin: auto;
+}
+
+.heroImg{
+    width: 100%;
+    height: 100%;   
+}
+
+
+.slogan-container{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    background-color: rgb(193, 185, 185, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+   color: wheat;
+  
+}
+
+.top-list{
+    height: 100px;
+    color: wheat;
+    margin-top: 65px;
+    font-size: 25px;
+
+}
+
+h1{
+    margin-left: 100px;
+}
+
+
+
+.carShopingSection{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.car{
+    margin:auto;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 27%;
+    padding: 3px;
+    border-radius: 1px;
+    color: wheat;
+    border: 1px solid rgb(4, 93, 4);
+    background-color: rgba(199, 197, 193, 0.2)
+    
+}
+
+.car:hover{
+    background-color: rgb(63, 59, 59);
+}
+
+.carHeading{
+   margin-left: 20px;
+    margin-top: 20px;
+}
+
+.carimg{
+    height: 200px;
+    width: 90%;
+    margin-left: 9px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.carfunction{
+    margin: 12px;
+    
+}
+
+.carDetails{
+    
+    margin-left: 10px;
+}
+
+.bookNow{
+    float: right;
+    margin-right: 15px;
+    background-color: rgb(227, 211, 181);
+}
+
+.bookNow:hover{
+    background-color: rgb(222, 154, 27);
+}
+
+
+/* /////////////////////////////////  */
+
+footer{
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(194, 191, 191);
+    background-color: rgb(4, 78, 1);
+}
+
+
+.footer-head{
+   
+    display: flex;
+    justify-content: space-evenly;
+}

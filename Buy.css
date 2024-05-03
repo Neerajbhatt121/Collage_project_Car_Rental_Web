@@ -1,0 +1,53 @@
+.garage-list-container{
+   margin: auto;
+   margin-top: 150px;
+   width: 600px;
+   
+}
+
+.head{
+    top: 0;
+}
+
+
+.garage-item{
+    border: 1px solid wheat;
+    border-radius: 0;
+    padding: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img-list-book{
+    height: 98%;
+    
+}
+
+.garage-item-details{
+    margin: 35px;
+    color: wheat;
+}
+
+.carName{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.carid{
+    font-size: 9px;
+}
+
+.carPrice{
+    font-size: 12px;
+}
+
+.cross{
+    position: relative;
+    top: 0;
+    left: -9px;
+    font-size: 40px;
+    color: red;
+}
